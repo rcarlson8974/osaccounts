@@ -6,8 +6,9 @@
 // to create separate JavaScript files as needed.
 //
 //= require jquery
+//= require bootstrap
 //= require_tree .
-//= require_self
+///= require_self
 
 if (typeof jQuery !== 'undefined') {
 	(function($) {

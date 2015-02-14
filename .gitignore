@@ -1,0 +1,7 @@
+target/
+out/
+projectFilesBackup//
+.idea/
+*.iml
+*.ipr
+*.iws

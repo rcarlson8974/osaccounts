@@ -1,5 +1,6 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <%@ page import="grails.util.Environment" %>
 
@@ -26,7 +27,8 @@
     <title><g:layoutTitle default="OS Accounts"/></title>
 
     <link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon.ico')}" type="image/x-icon">
-    <link rel="stylesheet" href="${resource(dir: 'css', file: 'application.css')}" type="text/css">
+    <asset:stylesheet href="application.css"/>
+    %{--<link rel="stylesheet" href="${resource(dir: 'css', file: 'application.css')}" type="text/css">--}%
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'errors.css')}" type="text/css">
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}" type="text/css">
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'mobile.css')}" type="text/css">
@@ -54,5 +56,7 @@
 </div>
 
 <r:layoutResources/>
+
+<asset:javascript src="application.js"/>
 </body>
 </html>

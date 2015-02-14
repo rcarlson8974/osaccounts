@@ -1,12 +1,16 @@
 package com.otsegosolutions
 
 import org.apache.commons.lang.builder.HashCodeBuilder
+import org.bson.types.ObjectId
 
 class UserRole implements Serializable {
 
 	private static final long serialVersionUID = 1
 
-	User user
+    static mapWith = 'mongo'
+
+    ObjectId id
+    User user
 	Role role
 
 	boolean equals(other) {
