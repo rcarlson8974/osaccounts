@@ -6,8 +6,7 @@ if (typeof jQuery !== 'undefined') {
 // You're free to add application-wide JavaScript to this file, but it's generally better
 // to create separate JavaScript files as needed.
 //
-//= require bootstrap
-//= require_tree .
+//= require jquery.dataTables
 ///= require_self
 
   (function($) {

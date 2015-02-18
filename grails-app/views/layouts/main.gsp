@@ -22,31 +22,23 @@
     grails version     <g:meta name="app.grails.version"/>
     -->
 
-
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title><g:layoutTitle default="OS Accounts"/></title>
 
     <link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon.ico')}" type="image/x-icon">
     <asset:stylesheet href="application.css"/>
-    %{--<link rel="stylesheet" href="${resource(dir: 'css', file: 'application.css')}" type="text/css">--}%
-    <link rel="stylesheet" href="${resource(dir: 'css', file: 'errors.css')}" type="text/css">
-    <link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}" type="text/css">
-    <link rel="stylesheet" href="${resource(dir: 'css', file: 'mobile.css')}" type="text/css">
-    %{--<link rel="stylesheet" href="${resource(dir: 'css', file: 'osadmin.css')}" type="text/css">--}%
+    <asset:javascript src="jquery"/>
 
-    <g:layoutHead/>
-    %{--<g:javascript library="application"/>--}%
-    <r:layoutResources/>
+    <g:layoutHead />
 
-    %{--<link rel='stylesheet' href="${resource(dir: 'css', file: 'bootstrap_overrides.css')}" type="text/css"/>--}%
-    %{--<link rel='stylesheet' href="${resource(dir: 'css', file: 'datatables_overrides.css')}" type="text/css"/>--}%
+    <link rel='stylesheet' href="${resource(dir: 'css', file: 'bootstrap_overrides.css')}" type="text/css"/>
+    <link rel='stylesheet' href="${resource(dir: 'css', file: 'datatables_overrides.css')}" type="text/css"/>
 
 </head>
 
 <body class="container">
 
-<g:layoutBody/>
-
+<g:layoutBody />
 <g:set var="today" value="${new Date()}"/>
 <g:set var="year" value="${new Date()[Calendar.YEAR]}"/>
 <div class="row-fluid rs-footer pad-top-20 pad-bottom-10">
@@ -55,8 +47,7 @@
     </div>
 </div>
 
-<r:layoutResources/>
-
 <asset:javascript src="application.js"/>
+
 </body>
 </html>

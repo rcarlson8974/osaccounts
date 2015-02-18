@@ -1,0 +1,27 @@
+
+/*********************************************/
+/* Start DataTables overrides */
+/*********************************************/
+div.dataTables_length {
+    float: left;
+}
+ 
+div.dataTables_filter {
+    float: right;
+}
+ 
+div.dataTables_info {
+    float: left;
+}
+ 
+div.dataTables_paginate {
+    float: right;
+}
+
+table.table {
+	margin-bottom: -1px !important;
+}
+
+/*********************************************/
+/* End DataTables overrides */
+/*********************************************/

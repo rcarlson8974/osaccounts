@@ -1,0 +1,103 @@
+.table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody > tr:nth-child(odd) > th {
+    background-color: #82CAFA !important;
+}
+
+.table-hover tbody tr:hover > td, .table-hover tbody tr:hover > th {
+    background-color: #5098C8 !important;
+}
+
+.noMargin {
+    margin: 0 !important;
+}
+
+.control-label-left {
+    float: left;
+    width: 200px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.form-horizontal .control-label-medium {
+    float: left;
+    width: 200px;
+    padding-top: 5px;
+    text-align: right;
+}
+
+.form-horizontal .controls-medium {
+    *display: inline-block;
+    *padding-left: 20px;
+    margin-left: 200px;
+    *margin-left: 0;
+}
+
+.table-bordered {
+    border: 1px solid #dddddd;
+    border-top: 0;
+    border-collapse: collapse;
+    *border-collapse: collapse;
+    border-left: 0;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.table-bordered tbody:last-child tr:last-child > td:first-child {
+    -webkit-border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomleft: 0px;
+}
+
+.table-bordered tbody:last-child tr:last-child > td:last-child {
+    -webkit-border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+}
+
+.pagination ul {
+    *zoom: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.pagination ul > .disabled > span, .pagination ul > .disabled > a, .pagination ul > .disabled > a:hover, .pagination ul > .disabled > a:focus {
+    color: #000000;
+    cursor: auto;
+    background-color: #ffffff;
+}
+
+.accordion-body {
+    background-color: #ffffff;
+}
+
+.popover {
+    max-width: 650px;
+}
+
+.popover-content {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+/* iOS/iPad dropdown fix */
+.dropdown-backdrop {
+    display: none;
+}
+
+.table thead th {
+    vertical-align: top !important;
+}
+
+#contentListTableBody .outline-red input[type="checkbox"] {
+    outline: 2px solid #b94a48;
+    border: 2px solid #b94a48;
+}
+
+.text-normal {
+    color: #000000;
+}
+
+.modal-footer {
+    background-color: #FFFFFF;
+    border-top: none;
+}

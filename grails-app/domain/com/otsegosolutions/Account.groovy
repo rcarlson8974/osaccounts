@@ -4,7 +4,6 @@ import groovy.transform.ToString
 import org.bson.types.ObjectId
 
 @ToString(includeNames = true, includeFields = true)
-//class Account extends DomainObject implements Serializable {
 class Account implements Serializable {
 
     ObjectId id

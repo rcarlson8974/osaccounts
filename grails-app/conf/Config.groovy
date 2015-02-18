@@ -126,23 +126,3 @@ log4j.main = {
     info 'org.springframework.security'
     error "StackTrace"
 }
-
-// Added by the Spring Security Core plugin:
-grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.otsegosolutions.User'
-grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.otsegosolutions.UserRole'
-grails.plugin.springsecurity.authority.className = 'com.otsegosolutions.Role'
-grails.plugin.springsecurity.controllerAnnotations.staticRules = [
-        '/'              : ['permitAll'],
-        '/index'         : ['permitAll'],
-        '/dbconsole/**'  : ['permitAll'],
-        '/login/**'      : ['permitAll'],
-        '/logout/**'     : ['permitAll'],
-        '/index.gsp'     : ['permitAll'],
-        '/assets/**'     : ['permitAll'],
-        '/**/js/**'      : ['permitAll'],
-        '/**/css/**'     : ['permitAll'],
-        '/**/images/**'  : ['permitAll'],
-        '/**/favicon.ico': ['permitAll'],
-        '/account/**'    : ['ROLE_USER', 'ROLE_USER']
-]
-
