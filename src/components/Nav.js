@@ -9,7 +9,7 @@ class Nav extends Component {
             <nav className="navbar navbar-default">
                 <ul className="nav navbar-nav">
                     <li>
-                        <Link to="/">OS Accounts</Link>
+                        <Link to="/">MC Accounts</Link>
                     </li>
                 </ul>
                 <ul className="nav navbar-nav navbar-right">
